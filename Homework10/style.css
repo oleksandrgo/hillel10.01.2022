@@ -1,0 +1,40 @@
+body{background-image: url(https://us.123rf.com/450wm/inbevel13/inbevel131408/inbevel13140800054/31050429-silhouettes-of-dancing-people-at-summer-party-vector-illustration.jpg?ver=6);
+	background-size: cover;
+	text-align: center;
+	font-family: cursive}
+
+h1{font-size: 220%;}
+
+h3{text-decoration: underline;}
+
+form{border-style: solid;
+	border-color: pink ;
+	border-radius: 40px;
+	border-width: 10px;
+    background: white;}
+
+#button{
+	background-color: green;
+	border-radius: 0px;
+	font-size: 20px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	width: 150px;}
+
+input{border-style: dotted;
+	border-color: green;
+	border-radius: 6px;}
+
+#fff{color: green;}
+
+img{width: 600px;
+	height: 300px;
+	position: center;
+	border: 10px solid pink;}
+
+#is{background-color: pink;}
+.box{
+	width: 400px;
+	height: 300px;
+	padding: 10px;
+  	margin-left: auto;
+    margin-right: auto;}

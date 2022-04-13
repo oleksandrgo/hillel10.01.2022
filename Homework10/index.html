@@ -1,99 +1,104 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<meta charset="UTF-8">
 	<title>Зумба фитнес</title>
+	<link rel="stylesheet" type="text/css" href="style.css"> 
 </head>
+
 <body>
+
 <h1>Привет!</h1>
 <hr>
-<h2>Хочешь привести тело в форму? Любишь танцевать? 
-	<br>
-Тогда ЗУМБА!</h2>
-<hr>
+
+<h2>Хочешь привести тело в форму? Любишь танцевать? </h2>
+<h2>Тогда ЗУМБА!</h2>
+
+
+<div id=is>
 <br>
 <h3>Что это такое?</h3>
 <p>
-	Zumba® – энергичная фитнес-тренировка в формате танцевальной вечеринки под латиноамериканские и мировые хиты. Просто, весело и эффективно.Здесь ведущий инструктор показывает простые движения и связки под музыку, а группа повторяет увиденное.
+	Zumba® – энергичная фитнес-тренировка в формате танцевальной вечеринки под латиноамериканские и мировые хиты.
+</p>
+<p>
+	Просто, весело и эффективно.Здесь ведущий инструктор 		показывает простые движения и связки под музыку, а группа повторяет увиденное.
+</p>
+<p>
+	Танцуй Zumba® когда угодно вместе с НАМИ в нашей студии!
 </p>
 <br>
-<p>Танцуй Zumba® когда угодно вместе с НАМИ в нашей студии!
-</p>
+</div>
+
 
 <div>
-	<h3>МЫ ПРЕДЛАГАЕМ:</h3>
-	<ul>
-		<li>
-			Zumba Toning <br>
-			<img src="https://i.pinimg.com/originals/d9/a9/a7/d9a9a75a90d270b330468ee403c26b02.jpg">
-			
-		</li>
-		<br>
-		<li>
-			Zumba Kids<br>
-			<img src="https://static.nasztomaszow.pl/data/articles/s4_arch_zumba_kids_co_to_jest_1536752738_29606.jpg">
-		</li>
-		<br>
-		<li>
-		Aqua Zumba<br>
-		<img src="https://scontent-frt3-1.xx.fbcdn.net/v/t1.6435-9/89030777_117512943174359_6434115769688129536_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=GRVHs1YPCuEAX93Cvnd&_nc_ht=scontent-frt3-1.xx&oh=00_AT_M5jtMNGGFq8JG2VcS3q-ny6KtBiVvZ5IZ1fn7NBwGYw&oe=6274AFD5">
-	    </li>
-	</ul>
+<h3>МЫ ПРЕДЛАГАЕМ:</h3>
+	
+	<p>Zumba Toning</p>
+	<img src="https://i.pinimg.com/originals/d9/a9/a7/d9a9a75a90d270b330468ee403c26b02.jpg">
+
+	<p>Zumba Kids</p>
+	<img id=kids src="https://static.nasztomaszow.pl/data/articles/s4_arch_zumba_kids_co_to_jest_1536752738_29606.jpg">
+		
+	<p>Aqua Zumba</p>
+	<img src="https://scontent-frt3-1.xx.fbcdn.net/v/t1.6435-9/89030777_117512943174359_6434115769688129536_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=GRVHs1YPCuEAX93Cvnd&_nc_ht=scontent-frt3-1.xx&oh=00_AT_M5jtMNGGFq8JG2VcS3q-ny6KtBiVvZ5IZ1fn7NBwGYw&oe=6274AFD5">
+</ul>
 </div>
 <br>
-
-<h4>
-Запишись на пробное занятие:
-</h4>
-
-	<form>
-		<div class="radio">
-			<label for="male">М</label>
-			<input type="radio" name="gender" value="gender" id="male">
-			<label for="female">Ж</label>
-			<input type="radio" name="gender" value="gender" id="female"
-		</div>
-			 
-		<p>
+   
+<div class="box">
+<form action="" method="POST" id=form>
+<h3 id=fff>Запишись на пробное занятие:</h3>	
+	<div class="radio">
+		<label for="male">М</label>
+		<input type="radio" name="gender" value="gender" id="male">
+		<label for="female">Ж</label>
+		<input type="radio" name="gender" value="gender" id="female">
+	</div>
+	<p>
 		<label>
-			Имя:
-			<input type="text"
-				   placeholder="введи имя">
+		Имя:
+		<input type="text"
+		placeholder="введи имя">
 		</label>
-		</p>
-
-		<p>
+	</p>
+	<p>
 		<label>
-			Фамилия:
-			<input type="text"
-				   placeholder="введи фамилию">
+		Фамилия:
+		<input type="text"
+		placeholder="введи фамилию">
 		</label>
-		</p>
-		<p>
+	</p>
+	<p>
 	    <label>
-	    	Дата рождения:
-	    	<input type="date">
+	    Дата рождения:
+	    <input type="date">
 	    </label>	
-	    </p>
-
-		<p>
+	</p>
 		<label>
-			Телефон:
-			<input type="text" 
-				   placeholder="введи свой номер">
+		Телефон:
+		<input type="phone" 
+		placeholder="введи свой номер">
 		</label>
-		</p>
-
-		<p>
+	<p>
 		<label>
-			E-mail:
-			<input type="email"
-			       placeholder="введи адрес">
+		E-mail:
+		<input type="email"
+		placeholder="введи адрес">
 		</label>
-	    </p>
+	</p>
+<p><input id=button type="submit"></p>
+</form>
+</div>
+<br>
+<br>
+<br>
+<hr>
+<h6>
+	<p>Hillel school</p> 
+	<p>Iryna Voloshchuk</p>
+</h6>
 
-	    
-	<input type="submit" >
-	</form>
 </body>
 </html>
