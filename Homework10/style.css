@@ -10,7 +10,7 @@ h3{text-decoration: underline;}
 form{border-style: solid;
 	border-color: pink ;
 	border-radius: 40px;
-	border-width: 10px;
+	border-width: 15px;
     background: white;}
 
 #button{
@@ -29,9 +29,10 @@ input{border-style: dotted;
 img{width: 600px;
 	height: 300px;
 	position: center;
-	border: 10px solid pink;}
+	border: 15px solid pink;}
 
 #is{background-color: pink;}
+
 .box{
 	width: 400px;
 	height: 300px;
