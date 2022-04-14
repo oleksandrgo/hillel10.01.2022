@@ -1,0 +1,66 @@
+body{
+background-image: url(https://html5book.ru/wp-content/uploads/2015/05/background9.jpg);
+background-size: initial;
+font-family: Arial;
+line-height: 1,5;
+}
+.picture{
+width: 900;
+margin: 0 auto;
+padding: 20px;
+background: #fff;
+box-shadow: 0 5px 10px 
+#ccc;
+border-radius: 10px;	
+}
+h4{
+font-size: 25px
+}
+.first{
+background: #FFEFD5;
+}
+.picture-photo{
+display: block;
+width: 900px;
+height: 460px;
+margin: 0 auto;
+border-radius: 25%;
+} 
+.picture-title{
+font-size: 35px;	
+text-align: center;
+color: #EE82EE;
+}
+.picture-text{
+font-size: 14px;	
+}
+.picture-subtitle{
+font-size: 18px;
+color: #000000;
+}
+.picture-list{
+padding-left: 0;
+list-style-position: inside;
+font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+font-size: 50px;	
+}	
+}
