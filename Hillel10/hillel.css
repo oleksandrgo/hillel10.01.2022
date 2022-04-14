@@ -1,0 +1,40 @@
+header{
+	background-color: lavender;
+}
+
+body{
+	font-size: 1.4em;
+	background-color: #FFEFFF;
+}
+
+footer{
+	background-color: #5757ff;
+}
+
+h3{
+	text-align: center;
+}
+
+.menu{
+	list-style-type: none;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.menu a{
+	text-decoration: none;
+	font-family: sans-serif;
+	color: #5757a0;
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: lavender;
+	border-bottom: 5px solid #5757a0;
+}
+
+.menu li{
+	display: inline;
+}
+
+.helloworldimg{
+	width: 50%;
+}

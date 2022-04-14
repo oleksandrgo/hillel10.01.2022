@@ -4,6 +4,7 @@
 		<title>Programming Languages</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="hillel.css">
 	</head>
 	<header align=center>
 		<font color="orange" face="Times New Roman">
@@ -12,38 +13,37 @@
 		</font>
 	</header>
 	<body>
-		<h4>Навигация</h3>
-		<ul>
-			<li><a href="#Cpp">C++</a></li>
-			<li><a href="#Java">Java</a></li>
-			<li><a href="#Python">Python</a></li>
+		<h4>Навигация</h4>
+		<ul class="menu">
+			<li><a href="#Cpphf">C++</a></li>
+			<li><a href="#Javahf">Java</a></li>
+			<li><a href="#Pythonhf">Python</a></li>
 		</ul>
 
-		<h3><a name="Cpp">C++</a></h3>
+		<h3><a name="Cpphf">C++</a></h3>
 			<p>Компилируемый, статически типизированный язык программирования общего назначения.<br><br>
 			Поддерживает такие парадигмы программирования, как процедурное программирование, объектно-ориентированное программирование, обобщённое программирование. Язык имеет богатую стандартную библиотеку, которая включает в себя распространённые контейнеры и алгоритмы, ввод-вывод, регулярные выражения, поддержку многопоточности и другие возможности. C++ сочетает свойства как высокоуровневых, так и низкоуровневых языков. В сравнении с его предшественником — языком C — наибольшее внимание уделено поддержке объектно-ориентированного и обобщённого программирования.<br><br>
 			C++ широко используется для разработки программного обеспечения, являясь одним из самых популярных языков программирования. Область его применения включает создание операционных систем, разнообразных прикладных программ, драйверов устройств, приложений для встраиваемых систем, высокопроизводительных серверов, а также игр. Существует множество реализаций языка C++, как бесплатных, так и коммерческих и для различных платформ. Например, на платформе x86 это GCC, Visual C++, Intel C++ Compiler, Embarcadero (Borland) C++ Builder и другие. C++ оказал огромное влияние на другие языки программирования, в первую очередь на Java и C#.<br><br></p>
 
 			Пример программы Hello World на C++<br><br>
 			
-			<img src="helloworldcpp.jpg" alt="Hello World in C++" title="Hello World C++"><br><br>
+			<img src="helloworldcpp.jpg" alt="Hello World in C++" title="Hello World C++" class="helloworldimg"><br><br>
 			
 
-		<h3><a name="Java">Java</a></h3>
+		<h3><a name="Javahf">Java</a></h3>
 			<p>Строго типизированный объектно-ориентированный язык программирования общего назначения, разработанный компанией Sun Microsystems (в последующем приобретённой компанией Oracle). Разработка ведётся сообществом, организованным через Java Community Process; язык и основные реализующие его технологии распространяются по лицензии GPL. Права на торговую марку принадлежат корпорации Oracle.<br><br>
 			Приложения Java обычно транслируются в специальный байт-код, поэтому они могут работать на любой компьютерной архитектуре, для которой существует реализация виртуальной Java-машины. Дата официального выпуска — 23 мая 1995 года. Занимает высокие места в рейтингах популярности языков программирования (2-е место в рейтингах IEEE Spectrum (2020) и TIOBE (2021)).<br><br></p>
 
 			Пример программы Hello World на Java<br><br>
-			<img src="helloworldjava.jpg" alt="Hello World in Java" title="Hello World Jva"><br><br>
+			<img src="helloworldjava.jpg" alt="Hello World in Java" title="Hello World Java" class="helloworldimg"><br><br>
 			
 
-		<h3><a name="Python">Python</a></h3>
+		<h3><a name="Pythonhf">Python</a></h3>
 			<p>Высокоуровневый язык программирования общего назначения с динамической строгой типизацией и автоматическим управлением памятью, ориентированный на повышение производительности разработчика, читаемости кода и его качества, а также на обеспечение переносимости написанных на нём программ. Язык является полностью объектно-ориентированным в том плане, что всё является объектами. Необычной особенностью языка является выделение блоков кода пробельными отступами. Синтаксис ядра языка минималистичен, за счёт чего на практике редко возникает необходимость обращаться к документации. Сам же язык известен как интерпретируемый и используется в том числе для написания скриптов. Недостатками языка являются зачастую более низкая скорость работы и более высокое потребление памяти написанных на нём программ по сравнению с аналогичным кодом, написанным на компилируемых языках, таких как C или C++<br><br></p>
 
 			Пример программы Hello World на Python<br><br>			
-			<img src="helloworldpython.jpg" alt="Hello World in Python" title="Hello World Python"><br><br>
+			<img src="helloworldpython.jpg" alt="Hello World in Python" title="Hello World Python" class="helloworldimg"><br><br>
 			
-
 		<table width=100%>
   			<caption>Сравнения языков программирования</caption>
   			<colgroup>
@@ -116,12 +116,13 @@
 	</body>
 	<footer>
 		<form align=right>
+			<div>
 			Ищите курсы? Мы поможем!<br><br>
   			Ваше имя: <input type="text" name="name"><br>
   			Ваш телефон: <input type="tel" name="phone"><br>
   			Ваш E-mail: <input type="mail" name="email"><br>
   			Ваш язык программирования:  
-  			<div>
+  			
 			    <input type="radio" id="Cpp"
 			     name="prlng" value="C++">
 			    <label for="contactChoice1">C++</label>
@@ -134,7 +135,7 @@
 			     name="prlng" value="Python">
 			    <label for="contactChoice3">Python</label>
 			</div><br>
-  			<button type="submit" name="submit">Заказать звонок</button>
+  			<button type="submit" name="submit">Заказать звонок</button><br>
 		</form>
 	</footer>
 </html>
