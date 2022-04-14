@@ -1,0 +1,36 @@
+body{
+	background-image: url(5.jpg); 
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	} 
+	.text-typing
+	{
+		font-family: Comic Sans MS Cursive;
+		font-size: xx-large;
+		white-space:nowrap;
+		 overflow:hidden;
+		 -webkit-animation: type 2s steps(40, end);
+		 animation: type 2s steps(40, end);
+		 }
+		 @keyframes type{
+		    from { width: 0; }
+		}
+		@-webkit-keyframes type{
+			from { width: 0;}
+	}
+	p{ font-family: Trebuchet MC sans-serif;
+		font-size:large;
+		word-spacing: 4px;
+		text-indent: 30px;
+	}
+	h2{
+		font-family: Arial Black sans-serif;
+		font-size: x-large;
+	}
+	ol{
+		font-family: MS Sans Serif sans-serif;
+		font-size: x-large;
+		color: maroon;
+	}
