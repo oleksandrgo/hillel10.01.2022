@@ -1,0 +1,55 @@
+
+h1 {
+  font-family: cursive;
+  text-decoration: underline;
+  }
+  h1{font-size: 250%;}
+  h2{font-size: 100%;}
+  h3{font-size: 200%;}
+
+  img{width: 900px;
+  height: 600px;
+  position: center;
+  }
+  .center-img {
+  display: block;
+  margin: 0 auto;
+}
+
+p{ font-family: serif;
+    font-size:large;
+    word-spacing: 4px;
+    text-indent: 30px;
+  }
+  
+h3 {
+  text-shadow: 1px 1px 1px grey,
+               2px 2px 1px grey;
+}
+
+input
+{
+  border-style: dotted;
+  border-color: sienna;
+  border-radius: 10px;
+}
+footer {border-style: dashed;
+  border-color: grey ;
+  border-radius: 3px;
+  border-width: 3px;
+    background: white;
+  color: darkslategray;}
+
+
+    #kkk{color: saddlebrown;font-size: 150%; background-color: cornsilk;}
+    #www{color: darkslategray;}
+    #bbb{color: darkolivegreen;}
+    #ppp{color: saddlebrown; background-color: cornsilk; font-size: 110%; font-family: Georgia, serif;}
+    #sss{color: saddlebrown; background-color: cornsilk; font-size: 110%; font-family: Georgia, serif;}
+    #ccc{color: saddlebrown;}
+    #ooo{color: saddlebrown;}
+
+
+
+    
+    
