@@ -13,13 +13,13 @@ if ((a % b)===0) {
 
 //Задача 2. Рисуем треугольник
 
-/*function showTriangle(){
+function showTriangle(){
 for( var string = "@";
 	string.length < 9;
-	string += "@")
+	string = string + "@")
 console.log(string);
 }
- showTriangle ()*/
+ showTriangle ()
  //______________________________________________
 
  //Задача 3. Столбец нечетных чисел
