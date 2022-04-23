@@ -33,14 +33,14 @@ drawTriangle()*/
 
 //Второй способ
 
-function showTriangle(size,string){
+/*function showTriangle(size,string){
 size = 5;//кол-во строк
 string = "#";//символ,которым рисуем треугольник
  for (let i = 1; i <= size; i++){ 
  	let me = string.repeat(i)//повторяет строки,указаное кол-во раз
     console.log(me);}
 }
-showTriangle()
+showTriangle()*/
 
 //______________________________________________
 
