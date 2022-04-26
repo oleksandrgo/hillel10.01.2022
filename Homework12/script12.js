@@ -74,7 +74,13 @@ console.log("Количество итераций: " +i);*/
 
 
 
-
-
-
+function drawTriangle (line,size){
+line = "";
+size = 7	
+ 	for ( 
+ 		line.length <= size; 
+ 		line = line + "+") 
+ console.log(line);
+ }
+ drawTriangle ()
 

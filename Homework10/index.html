@@ -5,21 +5,15 @@
 	<meta charset="UTF-8">
 	<title>Зумба фитнес</title>
 	<link rel="stylesheet" type="text/css" href="style.css"> 
-	<script src="script.js"></script>
-
+	
 </head>
 
 <body>
-
-<h1>Привет!</h1>
-<hr>
-
+<h1>Привет!</h1><hr>
 <h2>Хочешь привести тело в форму? Любишь танцевать? </h2>
 <h2>Тогда ЗУМБА!</h2>
 
-
-<div id=is>
-<br>
+<div id=is><br>
 <h3>Что это такое?</h3>
 <p>
 	Zumba® – энергичная фитнес-тренировка в формате танцевальной вечеринки под латиноамериканские и мировые хиты.
@@ -29,14 +23,11 @@
 </p>
 <p>
 	Танцуй Zumba® когда угодно вместе с НАМИ в нашей студии!
-</p>
-<br>
+</p><br>
 </div>
-
 
 <div>
 <h3>МЫ ПРЕДЛАГАЕМ:</h3>
-	
 	<p>Zumba Toning</p>
 	<img src="https://i.pinimg.com/originals/d9/a9/a7/d9a9a75a90d270b330468ee403c26b02.jpg">
 
@@ -45,63 +36,45 @@
 		
 	<p>Aqua Zumba</p>
 	<img src="https://scontent-frt3-1.xx.fbcdn.net/v/t1.6435-9/89030777_117512943174359_6434115769688129536_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=GRVHs1YPCuEAX93Cvnd&_nc_ht=scontent-frt3-1.xx&oh=00_AT_M5jtMNGGFq8JG2VcS3q-ny6KtBiVvZ5IZ1fn7NBwGYw&oe=6274AFD5">
-</ul>
-</div>
-<br>
-   
-<div class="box">
-<form action="" method="POST" id=form>
+</div><br>
+  
+<div class="box" >
+<form class="js-form" action=""  id="form" novalidate>
 <h3 id=fff>Запишись на пробное занятие:</h3>	
-	<div class="radio">
-		<label for="male">М</label>
-		<input type="radio" name="gender" value="gender" id="male">
-		<label for="female">Ж</label>
-		<input type="radio" name="gender" value="gender" id="female">
-	</div>
-	<p>
+	<div class="form__group">
 		<label>
 		Имя:
-		<input type="text"
-		placeholder="введи имя">
+		<input class="input js-input" type="text" placeholder="введи имя" id="name">
 		</label>
-	</p>
-	<p>
-		<label>
-		Фамилия:
-		<input type="text"
-		placeholder="введи фамилию">
-		</label>
-	</p>
-	<p>
-	    <label>
-	    Дата рождения:
-	    <input type="date">
-	    </label>	
-	</p>
+	</div>
+		<br>
+	<div class="form__group">
 		<label>
 		Телефон:
-		<input type="phone" 
-		placeholder="введи свой номер">
+		<input class="input js-input js-input-phone" type="tel" placeholder="введи свой номер" id="phone">
 		</label>
-	<p>
+	</div>
+	<br>
+	<div class="form__group">
 		<label>
 		E-mail:
-		<input type="email"
-		placeholder="введи адрес">
+		<input class="input js-input js-input-email" type="email" placeholder="введи адрес" id="email" required>
 		</label>
-	</p>
-<p><input id=button type="submit"></p>
+	</div>
+	<br>
+<div>
+	<button class="btn" type="button" id="btn">Записаться</button>
+	
+</div><br>
 </form>
+
 </div>
-<br>
-<br>
-<br>
-<br>
+
 <hr>
 <h6>
 	<p>Hillel school</p> 
 	<p>Iryna Voloshchuk</p>
 </h6>
-
+<script src="script.js"></script>
 </body>
 </html>

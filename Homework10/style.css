@@ -13,11 +13,12 @@ form{border-style: solid;
 	border-width: 15px;
     background: white;}
 
-#button{
+#btn{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 	background-color: green;
 	border-radius: 0px;
 	font-size: 20px;
-	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	
 	width: 150px;}
 
 input{border-style: dotted;
@@ -39,3 +40,7 @@ img{width: 600px;
 	padding: 10px;
   	margin-left: auto;
     margin-right: auto;}
+
+.input.error {
+    border-color: red;
+}
