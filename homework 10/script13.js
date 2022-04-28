@@ -22,45 +22,25 @@ function validateEmail(email) {
     return a.test(String(email));
 }
 
-form.onsubmit = function () {
-    let nameVal = inputName.value,
-        emailVal = inputEmail.value,
+let btn = document.querySelector('.btn');
+btn.addEventListener('click', checkForm);
+function checkForm () {
+    let emailVal = inputEmail.value,
         phoneVal = inputPhone.value,
-        emptyInputs = Array.from(formInputs).filter(input => input.value === '');
-    formInputs.forEach(function (input) {
-        if (input.value === '') {
-            input.classList.add('error');
+        nameVal = inputName.value;
 
-        } else {
-            input.classList.remove('error');
-        }
-    });
-
-        
-if (emptyInputs.length !== 0) {
-        alert('Заповніть поля!');
-        return false;}
-
-    else if(!validateName(nameVal)) {
-        inputName.style.borderColor = "red";
+    if(!validateName(nameVal)) {
         alert('Ми Вас не чуємо!');
-        return false;}    
+  }    
 
     else if (!validatePhone(phoneVal)) {
-        inputPhone.style.borderColor = "red";
         alert('Ми Вас не чуємо!');
-        return false;}
+}
 
     else if (!validateEmail(emailVal)) {
-        inputEmail.style.borderColor = "red";
         alert('Ми Вас не чуємо!');
-        return false;}
+}
     
     else{alert ("Ми Вас чуємо!!!");
-    inputName.style.borderColor = "green";
-    inputPhone.style.borderColor = "green";
-    inputEmail.style.borderColor = "green";
-    return false;
-}   
+}
 };
-   
