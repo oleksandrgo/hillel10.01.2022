@@ -1,0 +1,86 @@
+/* main */
+
+.main {
+	width: 100%;
+	height: 100vh;
+	background: url("https://static.wikia.nocookie.net/swfanon/images/e/e8/574_large.jpg/revision/latest?cb=20160602022720");
+	background-size: cover;
+}
+
+/* h1,h2 отступы */
+
+h1, h2 {
+	margin: 0;
+}
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto
+}
+
+.main_inner {
+	width: 100%;
+	max-width: 880px;
+	position: relative;
+	left: 80px;
+	font-weight: bold;
+}
+
+
+.main_feedbackform {
+	width: 100%;
+	max-width: 200px;
+	position: relative;
+	left: 50px;
+	color: white;
+	top: 20px;
+}
+
+.feedbackcover {
+	width: 100%;
+	max-width: 250px;
+	position: relative;
+	left: 70px;
+	top: 20px;
+	background: rgba(10, 10, 10, 0.6 );
+}
+
+.inner_link a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 3ch;
+	color: white;
+}
+
+.inner_link {
+	position: relative;
+	top: 40px;
+	width: 100%;
+	max-width: 600px;
+	left: 20px;
+}
+
+.btn {
+	display: inline-block;
+	vertical-align: top;
+	padding: 10px 40px;
+	border: 3px solid #fff;
+	font-size: 14px;
+	font-weight: bold;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.btn:active {
+	background-color: #030503;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
