@@ -5,6 +5,7 @@
 	<title>save the animals</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<script src="script.js"></script>
+
 </head>
 <body>
 	<h1 align="center" id="www">Save the animals - благодійний фонд, який піклується про долю безпритульних котів та собак у місті Одеса
@@ -16,14 +17,25 @@
 	<h2 align="left">Для зворотнього зв'язку з нашим фондом введіть, будь ласка, свої дані:
 	</h2>
 </body>
-<form action="" method="GET">
-	<input type="text" placeholder="name" name="name">
-	<input type="email" placeholder="email" name="email">
-	<input type="tel" placeholder="number" name="tel">
-	<button>send</button>
+<form class="js-form" action="" method="GET" novalidate>
+	<div class="form__group">
+	<input class="input js-input"  type="text" placeholder="name" name="name">
+</div>
+<br>
+<div class="form__group">
+	<input class="input js-input js-input-email" type="email" placeholder="email" name="email">
+</div>
+<br>
+<div class="form__group">
+	<input class="input js-input js-input-phone" type="tel" placeholder="number" name="tel">
+</div>
+<br>
+	<button class="btn" type="submit">
+	send
+</button>
 </form>
 <br>
-<br>
+<br> 
 	<p align="center" id="kkk">
 		Питання безпритульних тварин є однією з найбільш актуальних проблем сучасного суспільства. З кожним роком кількість бездомних кішок та собак збільшується. Голодні, хворі, нещасні, з очима повними болю і відданості. Вони страждають від холоду і самотності та голодують. Кожній тварині потрібен господар, якого вона любитиме всім своїм маленьким серцем, відповідаючи на турботу нескінченною вірністю.
 	</p>
@@ -87,6 +99,6 @@
 ЄДРПОУ 41519640
 <br>
 © 2018-2022 Українська Волонтерська Служба
+<script src="script13.js"></script>
 </div>
-
 </html>

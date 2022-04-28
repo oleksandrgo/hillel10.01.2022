@@ -32,7 +32,14 @@ input
   border-style: dotted;
   border-color: sienna;
   border-radius: 10px;
+
 }
+
+
+input.error {
+  border-color: red;
+}
+
 footer {border-style: dashed;
   border-color: grey ;
   border-radius: 3px;
