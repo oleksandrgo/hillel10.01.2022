@@ -5,13 +5,14 @@
 	<title>
 		Browser world.ua
 	</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 <div>
 <h1>The Best Web Browsers </h1></div>
 <hr>
- <div><h2>Get our recommendations for the best browser.</h2></div>
-<img style="position: relative;width: 800px;height: 400px;left: 25%;" src="C:\Hillel\git_home_work\hillel10.01.2022\HM10\картинки\img3.webp">
+<img style="position: relative;width: 800px;height: 400px;left: 25%;" src="C:\Hillel\git_home_work\hillel10.01.2022\HM10\картинки\img3.webp" class="picture" >
+<div class="picture-photo"><h2 class="picture-title">Get our recommendations for the best browser.</h2></div>
 <br>
 <a href="https://en.wikipedia.org/wiki/Web_browser">Wikipedia</a>
 <br>
@@ -26,6 +27,7 @@
 	<button><li><a href="#Microsoft Edge">Microsoft Edge</a></li></button>
 </ul>	
 </div>
+<div class="picture-text">
 <h3>What should you look for in a web browser?</h3>
  <p style="position: relative;left: 3%;width: 97%"><big> The best web browser should be fast and clean. You don’t want a browser that’s so bloated in features that it hogs your system’s resources and loads pages so slowly that you swear you’re on a dial-up connection.
 <br><br>
@@ -33,9 +35,9 @@ And while speed is great, security should be a priority too. Internet browsers s
 <br><br>
 Ultimately, a browser should be your interactive window looking out into the World Wide Web—a picture frame that should never distract you from the view at hand.
 <br><br>
-A web browser is not the same thing as a search engine, though the two are often confused.A search engine is a website that provides links to other websites. However, to connect to a website's server and display its web pages, a user must have a web browser installed</p></big>
-<h4>The 6 best web browsers</h4>
-<ul>
+A web browser is not the same thing as a search engine, though the two are often confused.A search engine is a website that provides links to other websites. However, to connect to a website's server and display its web pages, a user must have a web browser installed</p></big></div>
+<h4 class="picture-subtitle">The 6 best web browsers</h4>
+<ul class="picture-list">
 <li>Best overall: Google Chrome</li>
 <li>Best for security: Mozilla Firefox</li>
 <li>Best for customization: Vivaldi</li>
@@ -153,25 +155,51 @@ Bottom line: Microsoft Edge is a great native browser for Windows and a good alt
 </p></big>
 </div>	
 </section>
+<div class="topic-text"><br><b>Отправьте нам сообщение<b><br></div>
+<p>
+Если у вас есть какие-то вопросы или предложения по сотрудничеству -
+заполните форму ниже
+</p>
+<div class="container">
 <form action="Leave comments"method="post">
-<ul>
-<li>
+<ul class="form-list">
+<li>	
 <label for="name">Name:</label>
-<input type="text" id="name" name="user_name">
+<div class="input-control">
+<input class="form-control formName" type="text" id="name" name="user_name" required= "Имя не может быть пустым" placeholder="Enter your name..">
+</div>
+<div class="error"style="height: 20px; color: red"></div>
 </li>
 <li>
 <label for="mail">E-mail:</label>
-<input type="email" id="mail" name="user_email">
+<div class="input-control">
+<input class="form-control formMail field" type="email" id="mail" name="user_email" required= "email не может быть пустым"  placeholder="qwerty@gmail.com"> 
+</div>
+<div class="error"style="height: 20px; color: red"></div>
+</li>
+<li>	
+<label for="phone">Phone number:</label>
+<div class="input-control">
+<input class="form-control formPhone field" type="tel" id="phone" name="phone" required= "phone не может быть пустым" placeholder="+380(00)-000-00-00 "  >
+</div>
+<div class="error" style="height: 20px; color: red"></div>
 </li>
 <li>
 <label for="msg">Message:</label>
-<textarea id="msg" name="user_message"></textarea>
+<div class="input-control">
+<textarea class=" form-control formMsg field" id="msg" name="user_message" required= " Message не может быть пустым" placeholder="Enter a brief message"></textarea>
+</div>
+<div class="error"style="height: 20px; color: red"></div>
 </li>
-<li class="button">
-<button type="submit">Send your message</button>	
+<li>
+<label></label>
+<div>	
+<button class=" btn btn-primary" id="submit" type="submit">Send your message</button>
+</div>	
 </li>
 </ul>
 </form>
+</div>
 <hr>
 <div>
 <br>
@@ -182,5 +210,7 @@ Bottom line: Microsoft Edge is a great native browser for Windows and a good alt
 <a href="Browser world.ua"><big>&copy;Browser world.ua</big>
 </big></a>	
 </div>
+<script src="script.js">
+</script>
 </body>
  </html>
