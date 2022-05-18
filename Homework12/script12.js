@@ -17,30 +17,15 @@ if ((a % b)===0) {
 
 //Первый способ
 
-/*function drawTriangle(size,string){
-size = 10;//здесь задаем кол-во строк
-string = "";
-for (let i = 1; i <= size; i++) {
-  for (let j = 0; j < i; j++) {
-    string = string + "+";//здесь задаем символ,которым рисуем треугольник
-  }
-  string = string + "\n";// "\n" - новая строка 
+function triangle(height,ij){
+	let triangle;
+	let symbol = ij;
+	for (let i = 0; i < height; i++){
+		triangle = triangle + ij;
+		console.log(triangle);
+	}
+	triangle(5,"*")
 }
-console.log(string);
-}
-drawTriangle()*/
-
-
-//Второй способ
-
-/*function showTriangle(size,string){
-size = 5;//кол-во строк
-string = "#";//символ,которым рисуем треугольник
- for (let i = 1; i <= size; i++){ 
- 	let me = string.repeat(i)//повторяет строки,указаное кол-во раз
-    console.log(me);}
-}
-showTriangle()*/
 
 //______________________________________________
 
@@ -74,7 +59,7 @@ console.log("Количество итераций: " +i);*/
 
 
 
-function drawTriangle (line,size){
+/*function drawTriangle (line,size){
 line = "";
 size = 7	
  	for ( 
@@ -83,4 +68,4 @@ size = 7
  console.log(line);
  }
  drawTriangle ()
-
+*/

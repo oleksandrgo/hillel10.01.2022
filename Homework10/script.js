@@ -23,8 +23,6 @@ function validateEmail(email) {
     return re.test(String(email));
 }
 
-
-
 let btn = document.querySelector('.btn');
 btn.addEventListener('click', checkForm);
 function checkForm () {
@@ -52,21 +50,21 @@ function checkForm () {
         alert('Мы Вас не слышим!');
         return false;}    
 
-	else if (!validatePhone(phoneVal)) {
+	else if(!validatePhone(phoneVal)) {
         inputPhone.style.borderColor = "red";
         alert('Мы Вас не слышим!');
-        return false;}
+        return false;}    
 
     else if(!validateEmail(emailVal)) {
         inputEmail.style.borderColor = "red";
         alert('Мы Вас не слышим!');
     	return false;}
-    
+
     else{alert ("Мы Вас слышим!");
-    inputName.style.borderColor = "green";
-    inputPhone.style.borderColor = "green";
-    inputEmail.style.borderColor = "green";
-    return false;
+    	inputName.style.borderColor = "green";
+    	inputPhone.style.borderColor = "green";
+    	inputEmail.style.borderColor = "green";
+    	return false;
 }	
 };
 });
