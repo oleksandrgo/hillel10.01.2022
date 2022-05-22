@@ -13,6 +13,7 @@
 		</font>
 	</header>
 	<body>
+		<script src="hw13.js"></script>
 		<h4>Навигация</h4>
 		<ul class="menu">
 			<li><a href="#Cpphf">C++</a></li>
@@ -29,7 +30,6 @@
 			
 			<img src="helloworldcpp.jpg" alt="Hello World in C++" title="Hello World C++" class="helloworldimg"><br><br>
 			
-
 		<h3><a name="Javahf">Java</a></h3>
 			<p>Строго типизированный объектно-ориентированный язык программирования общего назначения, разработанный компанией Sun Microsystems (в последующем приобретённой компанией Oracle). Разработка ведётся сообществом, организованным через Java Community Process; язык и основные реализующие его технологии распространяются по лицензии GPL. Права на торговую марку принадлежат корпорации Oracle.<br><br>
 			Приложения Java обычно транслируются в специальный байт-код, поэтому они могут работать на любой компьютерной архитектуре, для которой существует реализация виртуальной Java-машины. Дата официального выпуска — 23 мая 1995 года. Занимает высокие места в рейтингах популярности языков программирования (2-е место в рейтингах IEEE Spectrum (2020) и TIOBE (2021)).<br><br></p>
@@ -37,7 +37,6 @@
 			Пример программы Hello World на Java<br><br>
 			<img src="helloworldjava.jpg" alt="Hello World in Java" title="Hello World Java" class="helloworldimg"><br><br>
 			
-
 		<h3><a name="Pythonhf">Python</a></h3>
 			<p>Высокоуровневый язык программирования общего назначения с динамической строгой типизацией и автоматическим управлением памятью, ориентированный на повышение производительности разработчика, читаемости кода и его качества, а также на обеспечение переносимости написанных на нём программ. Язык является полностью объектно-ориентированным в том плане, что всё является объектами. Необычной особенностью языка является выделение блоков кода пробельными отступами. Синтаксис ядра языка минималистичен, за счёт чего на практике редко возникает необходимость обращаться к документации. Сам же язык известен как интерпретируемый и используется в том числе для написания скриптов. Недостатками языка являются зачастую более низкая скорость работы и более высокое потребление памяти написанных на нём программ по сравнению с аналогичным кодом, написанным на компилируемых языках, таких как C или C++<br><br></p>
 
@@ -115,27 +114,25 @@
 		<br>
 	</body>
 	<footer>
-		<form align=right class="form">
-			<div>
-			Ищите курсы? Мы поможем!<br><br>
-  			Ваше имя: <input type="text" name="name"><br>
-  			Ваш телефон: <input type="tel" name="phone"><br>
-  			Ваш E-mail: <input type="mail" name="email"><br>
-  			Ваш язык программирования:  
+		<script src="hw13.js"></script>
+		Ищите курсы? Мы поможем!<br><br>
+  		Ваше имя: 
+  		<input type="text" id="name"><br>
+  		Ваш телефон: 
+  		<input type="tel" id="phone"><br>
+  		Ваш E-mail: 
+  		<input type="mail" id="email"><br>
+  		Ваш язык программирования:  
   			
-			    <input type="radio" id="Cpp"
-			     name="prlng" value="C++">
-			    <label for="contactChoice1">C++</label>
+		<input type="radio" id="Cpp" name="prlng" value="C++">
+		<label for="contactChoice1">C++</label>
 
-			    <input type="radio" id="Java"
-			     name="prlng" value="Java">
-			    <label for="contactChoice2">Java</label>
+		<input type="radio" id="Java" name="prlng" value="Java">
+		<label for="contactChoice2">Java</label>
 
-			    <input type="radio" id="Python"
-			     name="prlng" value="Python">
-			    <label for="contactChoice3">Python</label>
-			</div><br>
-  			<button type="submit" name="submit">Заказать звонок</button><br>
-		</form>
+		<input type="radio" id="Python" name="prlng" value="Python">
+		<label for="contactChoice3">Python</label>
+		<br>
+  		<button type="submit" name="submit" id="btn_sub" onclick="onClickFunction()">Заказать звонок</button><br>
 	</footer>
 </html>
