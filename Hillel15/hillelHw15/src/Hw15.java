@@ -5,6 +5,7 @@ public class Hw15 {
     public static void main(String[] args){
 
         //1
+        System.out.println("#1");
         System.out.println("Введите число 1, 2 или 3: ");
         Scanner inputFigure1 = new Scanner(System.in);
         int i = inputFigure1.nextInt();
@@ -34,6 +35,7 @@ public class Hw15 {
         }
 
         //2
+        System.out.println("#2");
         int k = 5;
         while (k != 0){
             System.out.println(k);
@@ -41,8 +43,19 @@ public class Hw15 {
 
         }
         //3
+        System.out.println("#3");
         for (int j = 1; j < 11 ;j++) {
             System.out.println("3 * "+j+" = "+(3*j));
         }
+
+        //4
+        System.out.println("#4");
+        int s;
+        double a = 0;
+        for (s = 1; s < 100; s++){
+            a = a + s;
+        };
+        a = a/s;
+        System.out.println(a);
     }
 }
