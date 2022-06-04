@@ -1,9 +1,9 @@
+/*
 package Profile;
 public class Auto {
     public String brand;
     public String model;
     public Double mileage;
-
     public Auto(String brand, String model, Double mileage) {
         this.brand = brand;
         this.model = model;
@@ -14,5 +14,5 @@ public class Auto {
             }
         }
     }
-}
+*/
 

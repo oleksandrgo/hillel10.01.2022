@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f7acb21-0ec1-4dc5-9187-ad6df33c22b6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/HW16/src/test/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HW 15/Example/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW 15/Example/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW16/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/HW16/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW16/src/main/java/Profile/Auto.java" beforeDir="false" afterPath="$PROJECT_DIR$/HW16/src/main/java/Profile/Auto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW16/src/main/java/Profile/Fiat.java" beforeDir="false" afterPath="$PROJECT_DIR$/HW16/src/main/java/Profile/Fiat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW16/src/main/java/Profile/Profile.java" beforeDir="false" afterPath="$PROJECT_DIR$/HW16/src/main/java/Profile/Profile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW16/src/test/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/HW16/src/test/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW16/target/test-classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/HW16/target/test-classes/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +57,26 @@
       <recent name="D:\git\hillel10.01.2022\HW16\HW16\src\main\java" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.Main.test">
+    <configuration name="Main" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HW16" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HW16" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="HW16" />
       <method v="2">
@@ -65,6 +90,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Main.test" />
+        <item itemvalue="JUnit.Main" />
+        <item itemvalue="JUnit.Main.test" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
