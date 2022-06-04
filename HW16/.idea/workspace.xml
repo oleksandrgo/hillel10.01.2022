@@ -7,12 +7,6 @@
     <list default="true" id="7f7acb21-0ec1-4dc5-9187-ad6df33c22b6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../HW 15/Example/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW 15/Example/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW16/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/HW16/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW16/src/main/java/Profile/Auto.java" beforeDir="false" afterPath="$PROJECT_DIR$/HW16/src/main/java/Profile/Auto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW16/src/main/java/Profile/Fiat.java" beforeDir="false" afterPath="$PROJECT_DIR$/HW16/src/main/java/Profile/Fiat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW16/src/main/java/Profile/Profile.java" beforeDir="false" afterPath="$PROJECT_DIR$/HW16/src/main/java/Profile/Profile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW16/src/test/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/HW16/src/test/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW16/target/test-classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/HW16/target/test-classes/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
