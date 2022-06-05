@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0bc4d253-7cdd-49b5-8ff6-7fc90b183069" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HM16/HM16/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../HM16/HM16/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HM16/HM16/out/production/HM16/MyUser/Audi.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../HM16/HM16/out/production/HM16/MyUser/Audi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HM16/HM16/out/production/HM16/MyUser/Cars.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../HM16/HM16/out/production/HM16/MyUser/Cars.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HM16/HM16/out/production/HM16/MyUser/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../HM16/HM16/out/production/HM16/MyUser/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HM16/HM16/out/production/HM16/MyUser/newUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../HM16/HM16/out/production/HM16/MyUser/newUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HM16/HM16/src/MyUser/Audi.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../HM16/HM16/src/MyUser/Audi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HM16/HM16/src/MyUser/Cars.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../HM16/HM16/src/MyUser/Cars.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HM16/HM16/src/MyUser/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../HM16/HM16/src/MyUser/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HM16/HM16/src/MyUser/newUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../HM16/HM16/src/MyUser/newUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HM18/HM18/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HM18/HM18/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HM18/HM18/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HM18/HM18/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HM18/HM18/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HM18/HM18/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HM18/HM18/bin/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HM18/HM18/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HM18/HM18/src/test/java/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HM18/HM18/target/test-classes/Main.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/requests/FilterRequest.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar!/org/openqa/selenium/WebElement.class" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2A4bSV2zF8b0CpAKaIrgfY5RZMX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "settings.editor.selected.configurable": "project.propCompiler"
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.Main.test">
+    <configuration name="Main.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HM17" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HM17" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Main.test" />
+        <item itemvalue="JUnit.Main.test2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0bc4d253-7cdd-49b5-8ff6-7fc90b183069" name="Changes" comment="" />
+      <created>1654271807725</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1654271807725</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

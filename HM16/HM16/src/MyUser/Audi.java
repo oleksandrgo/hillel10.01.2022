@@ -3,7 +3,7 @@ package MyUser;
 public class Audi extends Cars {
     public int MaximumSpeed;
 
-    public Audi(String Brand, String Model, int Mileage, int MaximumSpeed) {
+    public Audi(String Brand, String Model, int Mileage, int MaximumSpeed) throws IllegalAccessException {
         super(Brand, Model, Mileage);
         this.MaximumSpeed = MaximumSpeed;
 

@@ -5,14 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22d9aed3-8207-4702-8689-5a7b12d37cde" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HM16.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../HM18/HM18/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../HM18/HM18/src/test/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HM16/MyUser/Audi.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HM16/MyUser/Audi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HM16/MyUser/Cars.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HM16/MyUser/Cars.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HM16/MyUser/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HM16/MyUser/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HM16/MyUser/newUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HM16/MyUser/newUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyUser/Audi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyUser/Audi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyUser/Cars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyUser/Cars.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyUser/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyUser/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyUser/newUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyUser/newUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HM18/HM18/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../HM18/HM18/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
