@@ -111,25 +111,31 @@ public class Main {
 
         //Слип, потому что по другому не работает
         Thread.sleep(1000);
-        //go to profile
+        //click Add Car button
         driver.findElement(By.cssSelector(".panel-page_heading .btn-primary")).click();
         Thread.sleep(1000);
+        //add base Car Mileage
         driver.findElement(By.tagName("input")).sendKeys("10");
+        //add Car
         driver.findElement(By.cssSelector(".modal-content .btn-primary")).click();
 
         //Слип, потому что по другому не работает
         Thread.sleep(2000);
-        //go to garage
+        //go to Fuel expenses
         driver.findElement(By.tagName("button")).click();
         driver.findElement(By.xpath(" //a[contains(text(),'Fuel expenses') ] ")).click();
         //Слип, потому что по другому не работает
         Thread.sleep(1000);
-        //go to profile
+        //click add Expense button
         driver.findElement(By.cssSelector(".panel-page_heading .btn-primary")).click();
         Thread.sleep(1000);
+        //add expense mileage
         driver.findElement(By.id("addExpenseMileage")).sendKeys("0");
+        //add expense liters
         driver.findElement(By.id("addExpenseLiters")).sendKeys("10");
+        //add expense total cost
         driver.findElement(By.id("addExpenseTotalCost")).sendKeys("50");
+        //add expense
         driver.findElement(By.cssSelector(".modal-content .btn-primary")).click();
 
         //Слип, потому что по другому не работает
